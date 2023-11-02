@@ -11,8 +11,8 @@ The master node controls the exploration of path constraint trees, while the sla
 performs symbol execution and collects path constraints. Both pass input for execution and 
 serialized path constraints through sockets.
 
-########  Note  ########## 
-Local network ports need to be opened for use ( 127.0.0.1:20000 ~ 30000 )
+NOTE :-
+Local network ports need to be opened for use.
 
 
 SYSTEM REQUIREMENTS :-
