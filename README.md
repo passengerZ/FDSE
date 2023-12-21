@@ -14,7 +14,7 @@ serialized path constraints through sockets.
 NOTE :-
 Local network ports need to be opened for use.
 
-Author: Guofeng Z, Ziqi S, Kelin M, Kunlin L, Zhenbang C.
+Author: Guofeng Z, Ziqi S, Kelin M, Kunlin L, Zhenbang C, and Ji W.
 
 SYSTEM REQUIREMENTS :-
 ---------------------
@@ -62,9 +62,9 @@ f) KLEE (for DSE)
 
 USAGE :-
 --------
-./fdsetool/fdse --testcomp --property-file <.prp file> --output /home/xxx/output -sf CFILE
+./fdse --testcomp --property-file <.prp file> --output /home/xxx/output -sf CFILE
 
-eg. ./fdsetool/fdse --testcomp --property-file ~/sv-benchmarks-master/c/properties/unreach-call.prp
+eg. ./fdse --testcomp --property-file ~/sv-benchmarks-master/c/properties/unreach-call.prp
 --arch 64  --output /home/aaa/output -sf ~/sv-bencmarks-master/c/eca-rers2012/Problem01_label20.c
 
 
@@ -74,4 +74,4 @@ eg. ./run_test.sh
 
 OUTPUT :-
 ---------
-All generated test inputs are output in XML format to $output/test-suite
+All generated test inputs are output in XML format to $fdse_output/test-suite
