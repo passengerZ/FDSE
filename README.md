@@ -14,7 +14,11 @@ serialized path constraints through sockets.
 NOTE :-
 Local network ports need to be opened for use.
 
-Author: Guofeng Z, Ziqi S, Kelin M, Kunlin L, Zhenbang C, and Ji W.
+
+Author :-
+---------
+Guofeng Z, Ziqi S, Kelin M, Kunlin L, Zhenbang C, and Ji W.
+
 
 SYSTEM REQUIREMENTS :-
 ---------------------
