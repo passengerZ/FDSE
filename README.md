@@ -14,6 +14,7 @@ serialized path constraints through sockets.
 NOTE :-
 Local network ports need to be opened for use.
 
+Author: Guofeng Z, Ziqi S, Kelin M, Kunlin L, Zhenbang C.
 
 SYSTEM REQUIREMENTS :-
 ---------------------
@@ -24,7 +25,8 @@ INSTALLATION :-
 ---------------
 (1) only need to install gcc==9.4.0 in Ubuntu
   sudo apt install build-essential
-(2) if run in test-comp 2024 in Ubuntu docker environment, don't need to download
+  
+(2) if run in test-comp 2024 in Ubuntu22.04 environment, don't need to download
 
 
 Copy the FDSE package to a desired location. Make sure SYSTEM REQUIREMENTS
@@ -54,7 +56,9 @@ e) json-c   (for create json file)
    TOOL URL : https://github.com/json-c/json-c
    LICENSE  : https://github.com/json-c/json-c/blob/master/COPYING
 
-
+f) KLEE (for DSE)
+   TOOL URL : http://klee.github.io/
+   LICENSE  : klee/LICENSE
 
 USAGE :-
 --------
